@@ -1,0 +1,15 @@
+name: gog
+description: Find and summarize games on GOG
+author: AlbertSlee
+version: 0.1.0
+
+entrypoint: gog.py
+
+inputs:
+  query:
+    type: string
+    description: Game name or search
+
+outputs:
+  result:
+    type: string
