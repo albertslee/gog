@@ -1,6 +1,6 @@
 name: gog
-description: Find and summarize games on GOG
-author: AlbertSlee
+description: Check Gmail and Google Workspace
+author: albertslee
 version: 0.1.0
 
 entrypoint: gog.py
@@ -8,7 +8,7 @@ entrypoint: gog.py
 inputs:
   query:
     type: string
-    description: Game name or search
+    description: What to check
 
 outputs:
   result:
